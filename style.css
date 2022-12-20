@@ -19,6 +19,9 @@
 	background-color: aquamarine;
 
 	width: 15rem;
+	min-width: 240px;
+	box-shadow: 10px -10px 80px 20px rgb(27, 27, 27);
+	border-radius: 5px;
 }
 
 .calculadora-header {
@@ -27,27 +30,43 @@
 }
 
 .calculadora-visor {
-	color: red;
+	color: rgb(0, 255, 64);
 	height: 3em;
 	background-color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	flex-wrap: wrap;
 }
 
 .calculadora-body {
-	background-color: red;
-	height: 100%;
+	background-color: rgba(32, 32, 32, 0.911);
+	border-radius: 0 0 5px 5px;
 }
 
 .calculadora-button {
 	width: 3rem;
 	height: 3rem;
-	border-radius: 50%;
+
 	cursor: pointer;
 	border: none;
 	margin: 4px;
 	font-size: 2rem;
+    color: white;
+    background-color: black;
+}
+
+.igual {
+	background-color: orange;
+}
+
+
+.limpa{
+
+
+background-color: red;
+
+
+
 }

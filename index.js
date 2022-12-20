@@ -40,5 +40,13 @@ btnC.addEventListener("click", function limpa() {
 	visor.innerHTML = "";
 });
 btnigual.addEventListener("click", function resultado() {
+    const visor = document.querySelector(".calculadora-visor");
+
 	visor.innerHTML = eval(visor.innerHTML);
+
+    if (visor.innerHTML=="undefined") {
+        visor.innerHTML="digite um numero"
+       
+        
+    }
 });
